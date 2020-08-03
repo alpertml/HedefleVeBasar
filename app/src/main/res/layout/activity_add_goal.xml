@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".AddGoal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:id="@+id/SelectIcon"
+                android:padding="10dp"
+                android:background="@drawable/item_background"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_sport"
+                android:contentDescription="@string/GoalIcon"/>
+            <EditText
+                tools:ignore="Autofill"
+                android:inputType="text"
+                android:id="@+id/Name"
+                android:textSize="@dimen/GoalNameDimen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:hint="@string/YourGoalName"
+                android:textColorHint="@color/colorTransparentBlack"
+                android:textAlignment="center"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="@string/InTheseDays"
+            android:textSize="@dimen/AddGoalInformationDimen"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/item_background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mon"
+                    style="@style/AddGoalDaysButton"
+                    android:background="@drawable/days_button"
+                    android:text="@string/monday" />
+
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/tue"
+                    android:background="@drawable/days_button"
+                    android:text="@string/tuesday" />
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/wed"
+                    android:background="@drawable/days_button"
+                    android:text="@string/wednesday" />
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/thu"
+                    android:background="@drawable/days_button"
+                    android:text="@string/thursday" />
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/fri"
+                    android:background="@drawable/days_button"
+                    android:text="@string/friday" />
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/sat"
+                    android:background="@drawable/days_button"
+                    android:text="@string/saturday" />
+                <Button
+                    style="@style/AddGoalDaysButton"
+                    android:id="@+id/sun"
+                    android:background="@drawable/days_button"
+                    android:text="@string/sunday" />
+            </LinearLayout>
+            <Button
+                style="@style/AddGoalDaysButton"
+                android:id="@+id/EveryDay"
+                android:background="@drawable/days_button"
+                android:text="@string/everyday"/>
+        </LinearLayout>
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="@string/WriteGoalNote"
+            android:textSize="@dimen/AddGoalInformationDimen"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <EditText
+            tools:ignore="Autofill"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/GoalQuoteDimen"
+            android:id="@+id/Note"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/item_background"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/NoteAboutTheGoal"
+            android:textColorHint="@color/colorTransparentBlack"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="@string/WriteMotivationWord"
+            android:textSize="@dimen/AddGoalInformationDimen"
+            android:fontFamily="@font/roboto_medium" />
+
+        <EditText
+            tools:ignore="Autofill"
+            android:inputType="text"
+            android:textSize="@dimen/GoalQuoteDimen"
+            android:id="@+id/Quote"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:background="@drawable/item_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ExampleOfAQuote"
+            android:textColorHint="@color/colorTransparentBlack"
+            android:textColor="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" >
+                <TextView
+                    android:textSize="@dimen/AddGoalTextsSize"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorStar"
+                    android:text="@string/StartDate"
+                    />
+                <TextView
+                    android:id="@+id/StartDate"
+                    android:textSize="@dimen/AddGoalTextsSize"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/item_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ExampleDate"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" >
+                <TextView
+                    android:textSize="@dimen/AddGoalTextsSize"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorStar"
+                    android:text="@string/EndDate"
+                    />
+                <TextView
+                    android:id="@+id/EndDate"
+                    android:textSize="@dimen/AddGoalTextsSize"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:background="@drawable/item_background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ExampleDate"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" >
+            <TextView
+                android:textSize="@dimen/AddGoalTextsSize"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorStar"
+                android:text="@string/ReminderTime"
+                />
+            <TextView
+                android:id="@+id/TimeReminder"
+                android:textSize="@dimen/AddGoalTextsSize"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:background="@drawable/item_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ExampleTime"
+                android:textColor="@color/colorBlack" />
+            <CheckBox
+                android:id="@+id/CheckBoxNotification"
+                android:textSize="@dimen/AddGoalTextsSize"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RemindMe"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textAlignment="center"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/Cancel"
+                android:textSize="@dimen/AddGoalTextsSize"
+                android:layout_margin="15dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/Cancel"
+                />
+            <Button
+                android:id="@+id/Add"
+                android:textSize="@dimen/AddGoalTextsSize"
+                android:layout_margin="15dp"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/colorBlack"
+                android:text="@string/Add"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Hedefle ve Başar</string>
+
+    <string name="TodayIsCompleted">Bugün\nYapıldı</string>
+    <string name="TodayIsEmpty">Bugün\nTatil</string>
+    <string name="TodayIsNotCompleted">Bugün\nYapılmadı</string>
+
+    <string name="Home">Ana Sayfa</string>
+    <string name="Statistics">İstatistikler</string>
+    <string name="Settings">Ayarlar</string>
+
+    <string name="Image">Resim</string>
+    <string name="GoalNameUpperCase">HEDEF İSMİ</string>
+    <string name="ExampleOfAQuote">Taşı delen suyun kuvveti değil, suyun sürekliliğidir</string>
+
+    <string name="SendMail">MAİL\nGÖNDER</string>
+    <string name="GoToWebsite">WEBSİTE\nAÇ</string>
+    <string name="GoToYoutube">YOUTUBE\nAÇ</string>
+
+    <string name="TranslateToTurkish">Uygulamanın Türkçe olmasını istiyor musun?</string>
+    <string name="TranslateToEnglish">Uygulamanın İngilizce olmasını istiyor musun?</string>
+
+    <string name="WhyAdsTitle">3\'ten fazla hedef için neden reklam izliyorum?</string>
+    <string name="WhyAdsSentence">Uygulama, üniversite öğrencisi olan tek bir kişi tarafından geliştiriliyor.
+        Hedefle ve Başar açık kaynaklı ücretsiz bir uygulamadır. Ücretsiz kalması açısından böyle bir reklamlandırmaya gidilmiştir.</string>
+
+    <string name="ReportTheAppTitle">Önerilerinizi veya uygulama hatalarını mail ile bildirebilirsiniz</string>
+    <string name="ReportTheAppSentence">Uygulamamız için testler yapılmıştır. Gözden kaçan bazı detayların olma olasılığı yine de vardır.
+        Hataları veya önerilerinizi mail atarak bildirebilirsiniz.</string>
+
+    <string name="OpenSourceTitle">Nedir ve nerededir bu açık kaynak?</string>
+    <string name="OpenSourceSentence">Uygulama açık kaynaklı olması, kodunun herkes tarafından ulaşılabilir olması için paylaşılmış olduğundandır. Uygulamanın kaynak koduna websitemizden Github sayfamızı açarak ulaşabilirsiniz.</string>
+
+    <string name="GoalIcon">HEDEF İKON</string>
+    <string name="YourGoalName">HEDEFİNİN İSMİ</string>
+    <string name="InTheseDays">___ YAPACAĞIM GÜNLER ___</string>
+
+    <string name="monday">PZT</string>
+    <string name="tuesday">SAL</string>
+    <string name="wednesday">CAR</string>
+    <string name="thursday">PER</string>
+    <string name="friday">CUM</string>
+    <string name="saturday">CMT</string>
+    <string name="sunday">PAZ</string>
+    <string name="everyday">HER GUN</string>
+
+    <string name="WriteGoalNote">HEDEFİNİN NOTU</string>
+    <string name="NoteAboutTheGoal">Hedef\'in hakkında notun</string>
+    <string name="WriteMotivationWord">MOTİVASYON SÖZÜN</string>
+
+    <string name="StartDate">BAŞLANGIÇ TARİHİ</string>
+    <string name="EndDate">BİTİŞ TARİHİ</string>
+    <string name="ReminderTime">HATIRLATICI SAATİ</string>
+    <string name="ExampleDate" translatable="false">15/11/1998</string>
+    <string name="ExampleTime" translatable="false">00:00</string>
+    <string name="RemindMe">Hatırlat</string>
+
+    <string name="Add">EKLE</string>
+    <string name="Cancel">İPTAL</string>
+    <string name="Delete">Sil</string>
+    <string name="Back">Geri</string>
+
+    <string name="MyGoalCalendar">HEDEF TAKVİMİM</string>
+    <string name="Prev">Geri</string>
+    <string name="Next">İleri</string>
+    <string name="NotHaveNote">Hedef Notum Yok!</string>
+    <string name="NotHaveQuoteNote">Motivasyon Cümlem Yok!</string>
+
+    <string name="Yes">Evet</string>
+    <string name="No">Hayır</string>
+    <string name="DeleteGoalConfirmQuestion">Hedefi silmek istediğine emin misin?</string>
+    <string name="Update">Güncelle</string>
+    <string name="Confirm">Onayla</string>
+    <string name="Cancel_lowercase">İptal</string>
+
+    <string name="CalendarCompletedWord">"Tebrikler! Hedefledin ve Başardın!\nKendinle gurur duymalısın :)\n\nHedefini başardığına göre silinmesini ister misin?"</string>
+
+    <string name="InputRuleDates">Başlangıç günü ve hedef günde bir sorun var!</string>
+    <string name="InputRulePerformanceProblem">1 sene ve üzeri hedeflerin takvim oluşturma hızını artırmak amacıyla şuanlık kapalıdır.</string>
+    <string name="InputRuleMinDay">Hedef en az bir gün olsa da doldurulmalı!</string>
+
+    <string name="ChooseGoal">HEDEFİNİ SEÇ</string>
+    
+    <string name="StatisticsExampleDate" translatable="false">DATE\n00/00/00</string>
+    <string name="CompletedDay">GEÇEN GÜN SAYISI</string>
+    <string name="CompletedTask">İŞARETLENEN GÜN SAYISI</string>
+    <string name="Streak">ART ARDA GÜN TAMAMLAMA REKORUN</string>
+    <string name="SuccessPercent">BAŞARI YÜZDEN</string>
+
+    <string name="TotalDay">TOPLAM\nGÜN</string>
+    <string name="StatisticStartDate">BAŞLANGIÇ\nTARİHİ</string>
+    <string name="StatisticEndDate">BİTİŞ\nTARİHİ</string>
+
+    <string name="ThanksForAd">Reklam izlediğiniz için teşekkürler!</string>
+    <string name="AdFailed">"Reklam yüklenemedi, lütfen tekrar deneyiniz! (İnternet bağlantınız yavaş ya da kopmuş olabilir)"</string>
+    <string name="AskWatchAd">3 Hedeften sonra yeni bir hedef daha eklemek için reklam izlemelisin. Reklam açmamı ister misin?</string>
+    <string name="WaitForAd">REKLAM AÇILIYOR, LÜTFEN BEKLEYİNİZ.</string>
+
+    <string name="UserIsAlreadyHere">Zaten buradasın!</string>
+    <string name="NotificationTitle">Bir hedefinin vakti geldi!</string>
+    <string name="NotificationWord">Yapman gereken bir hedefin var! Hedefini gerçekleştirmeyi ve uygulamada işaretlemeyi unutma.</string>
+
+    <string name="SuccessfullyTranslated">Uygulamanın dili başarıyla değiştirildi!</string>
+    
+    <string name="CreditsTitle">LOGO</string>
+    <string name="CreditsWord">• Pixel perfect\n• Freepik\n• Roundicons\n• xnimrodx\n• monkik\n• ultimatearm\n• photo3idea studio\n• Smashicons\n• mavadee\n• pause08</string>
+</resources>

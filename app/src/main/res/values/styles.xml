@@ -1,0 +1,77 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="CustomStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+
+    </style>
+
+    <style name="AppNameTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/AppNameDimen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="AppNameTextAppearanceBlack" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/AppNameDimen</item>
+        <item name="android:text">@string/app_name</item>
+    </style>
+
+    <style name="TasksTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/TasksDimen</item>
+    </style>
+
+    <style name="CustomAddButton" parent="Widget.Design.FloatingActionButton">
+        <item name="android:src">@drawable/add</item>
+        <item name="maxImageSize">@dimen/AddButtonDimen</item>
+    </style>
+
+    <style name="GoalNameTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">@dimen/GoalNameDimen</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="GoalQuoteTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/GoalQuoteDimen</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="SettingsLogoTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/SettingsLogoTextDimen</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_weight">0.33</item>
+    </style>
+
+    <style name="SettingsSentencesTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/SettingsLogoTextDimen</item>
+    </style>
+
+    <style name="AddGoalDaysButton" parent="Widget.AppCompat.Button">
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+
+
+
+
+</resources>

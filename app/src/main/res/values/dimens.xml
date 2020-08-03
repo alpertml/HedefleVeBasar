@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AppNameDimen">35sp</dimen>
+    <dimen name="TasksDimen">16sp</dimen>
+    <dimen name="AddButtonDimen">56sp</dimen>
+
+    <dimen name="GoalNameDimen">25sp</dimen>
+    <dimen name="GoalQuoteDimen">17sp</dimen>
+
+    <dimen name="SettingsLogoTextDimen">16sp</dimen>
+
+    <dimen name="BottomAppBarPadding">65dp</dimen>
+    <dimen name="AddGoalInformationDimen">15sp</dimen>
+    <dimen name="AddGoalTextsSize">19sp</dimen>
+</resources>

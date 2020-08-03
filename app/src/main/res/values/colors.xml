@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#393e46</color>
+    <color name="colorBottomAppBar">#222831</color>
+    <color name="colorWhite">#eeeeee</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransparentBlack">#6A6767</color>
+    <color name="colorStar">#CFB53B</color>
+    <color name="colorSelectedButton">#F29B34</color>
+    <color name="colorToday">#12FF00</color>
+</resources>

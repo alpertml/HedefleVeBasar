@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:paddingBottom="@dimen/BottomAppBarPadding">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/AppNameTextAppearanceBlack"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/item_background"/>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background">
+                <TextView
+                    android:id="@+id/SendMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SettingsLogoTextAppearance"
+                    android:text="@string/SendMail"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:drawableTop="@drawable/email"
+                    android:contentDescription="@string/SendMail"/>
+                <TextView
+                    android:id="@+id/OpenWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SettingsLogoTextAppearance"
+                    android:text="@string/GoToWebsite"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:drawableTop="@drawable/website"
+                    android:contentDescription="@string/GoToWebsite"/>
+                <TextView
+                    android:id="@+id/OpenYoutube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/SettingsLogoTextAppearance"
+                    android:text="@string/GoToYoutube"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:drawableTop="@drawable/youtube"
+                    android:contentDescription="@string/GoToYoutube"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/item_background"
+                android:gravity="center_horizontal"
+                android:textAlignment="center">
+                <ImageView
+                    android:id="@+id/TR"
+                    android:padding="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tr"
+                    android:contentDescription="@string/TranslateToTurkish"/>
+                <ImageView
+                    android:id="@+id/UK"
+                    android:padding="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/uk"
+                    android:contentDescription="@string/TranslateToEnglish"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/item_background">
+                <TextView
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/WhyAdsTitle" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WhyAdsSentence"
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:fontFamily="@font/roboto"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/item_background">
+            <TextView
+                style="@style/SettingsSentencesTextAppearance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/ReportTheAppTitle" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ReportTheAppSentence"
+                style="@style/SettingsSentencesTextAppearance"
+                android:fontFamily="@font/roboto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/item_background">
+                <TextView
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/OpenSourceTitle" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/OpenSourceSentence"
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:fontFamily="@font/roboto"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/item_background">
+                <TextView
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="@string/CreditsTitle" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CreditsWord"
+                    style="@style/SettingsSentencesTextAppearance"
+                    android:fontFamily="@font/roboto"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        app:backgroundTint="@color/colorBottomAppBar"
+        android:layout_gravity="bottom"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/BottomAppBar"
+        style="@style/CustomAddButton"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

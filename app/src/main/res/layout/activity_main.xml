@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/BottomAppBarPadding">
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            style="@style/AppNameTextAppearance" />
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_margin="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_background">
+            <TextView
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableBottom="@drawable/task_completed"
+                style="@style/TasksTextAppearance"
+                android:text="@string/TodayIsCompleted"/>
+            <TextView
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableBottom="@drawable/task_empty"
+                style="@style/TasksTextAppearance"
+                android:text="@string/TodayIsEmpty"/>
+            <TextView
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:drawableBottom="@drawable/task_not_completed"
+                style="@style/TasksTextAppearance"
+                android:text="@string/TodayIsNotCompleted"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Goal_Linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Goal_Recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/BottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation"
+        app:backgroundTint="@color/colorBottomAppBar"
+        android:layout_gravity="bottom"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@id/BottomAppBar"
+        style="@style/CustomAddButton"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
