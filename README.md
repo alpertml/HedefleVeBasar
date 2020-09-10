@@ -23,7 +23,7 @@ Screenshots:
 <p float="left">
   <img src="images/custom–7.png" width="200" height="348"/>
   <img src="images/custom–6.png" width="200" height="348"/>
-  <img src="images/custom–2.png" width="200" height="348"/> 
+  <img src="images/over40logos.png" width="200" height="348"/> 
   <img src="images/custom–8.png" width="200" height="348" /> 
 </p>
 
