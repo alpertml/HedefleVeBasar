@@ -36,6 +36,6 @@ public class Constants {
     public static final String QUOTE = "QUOTE";
 
     // ADVERTISEMENT CONSTANTS
-    public static final String REWARDED_AD_UNIT_ID = "ca-app-pub-6487530234260930/2410210847";
+    public static final String REWARDED_AD_UNIT_ID = "*";
     public static final String AD_TAG = "RewardedAdLog";
 }
