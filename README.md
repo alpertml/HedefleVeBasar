@@ -79,9 +79,9 @@ Get in Touch:
 -
 If you want some help or want to give advice about the app etc. feel free to send a private email to me:
 
-• alper.temel@ceng.deu.edu.tr
+• tml.alper@gmail.com
 
-• alper.tml.14@hotmail.com
+• alper.temel@ceng.deu.edu.tr
 
 
 License:
